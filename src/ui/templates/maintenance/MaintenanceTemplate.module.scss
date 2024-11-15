@@ -1,0 +1,30 @@
+@import "@/ui/themes/Variables.scss";
+
+.div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+  .contentWrapper {
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .vehicle{
+    background-color: $bgSecondary;
+    box-shadow: 0 8px 16px $borders ;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-collapse: collapse; 
+}
+}

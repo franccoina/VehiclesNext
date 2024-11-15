@@ -1,0 +1,12 @@
+@import "@/ui/themes/Variables.scss";
+
+.tr{
+    border-bottom: 1px solid $borders;
+    
+    .th{
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+        text-align: center;
+    }
+}

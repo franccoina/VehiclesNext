@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./Variables.scss";
+
+* {
+  font-family: var(--font-principal);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: $bgPrimary1;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+}
+
+p, span, td, th, tr, li, label, select, input, textarea{
+  color: $textPrimary1;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.actionsBtn {
+  border-radius: 5px;
+  color: $textPrimary2;
+
+  & * {
+      color: $textPrimary2;
+  }
+}
+
+.primaryBtn {
+  border-radius: 5px;
+  color: $textSecondary;
+  background-color: $bgBtn1;
+
+  & * {
+      color: $textSecondary;
+  }
+}
+
+.secondaryBtn {
+  border-radius: 5px;
+  color: $textSecondary;
+  background-color: $bgBtn2;
+
+  & * {
+      color: $textSecondary;
+  }
+}

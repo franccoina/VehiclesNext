@@ -1,0 +1,33 @@
+@import "@/ui/themes/Variables.scss";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: $bgPagination;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: $hoverPagination;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: $bgInactive;
+        border-color: $borders;
+    }
+}
+
+.pageText {
+    color: $textPrimary2;
+}

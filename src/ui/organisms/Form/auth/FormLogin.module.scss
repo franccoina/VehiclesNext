@@ -1,0 +1,44 @@
+@import "@/ui/themes/Variables.scss";
+
+.form {
+    background-color: $bgPrimary2;
+    box-shadow: 0 8px 16px $borders ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px;
+
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: $textTertiary;
+    }
+
+    .isotype {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        color: $textTertiary;
+    }
+
+    .sub {
+        width: 100%;
+        margin-bottom: 15px;
+        color: $textPrimary2;
+        text-align: start;
+    }
+
+    .info {
+        width: 80%;
+        margin-top: 15px;
+        color: $textPrimary2;
+        text-align: center;
+    }
+}

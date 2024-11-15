@@ -1,0 +1,14 @@
+@import "@/ui/themes/Variables.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+
+    @media (min-width: 640px) {
+        padding: 80px;
+    }
+}

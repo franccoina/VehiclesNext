@@ -1,0 +1,22 @@
+@import "@/ui/themes/Variables.scss";
+
+.div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  
+  .p {
+    margin-top: 0.5rem;
+    color: $textError;
+    font-size: 0.8rem;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid $borders;
+    color: $textPrimary2;
+  }
+}
+

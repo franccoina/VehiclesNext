@@ -1,0 +1,11 @@
+@import "@/ui/themes/Variables.scss";
+
+.table{
+    background-color: $bgSecondary;
+    box-shadow: 0 8px 16px $borders ;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-collapse: collapse; 
+}

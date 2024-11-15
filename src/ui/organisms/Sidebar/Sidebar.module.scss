@@ -1,0 +1,59 @@
+@import "@/ui/themes/Variables.scss";
+
+.sidebarContainer {
+    width: 255px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+
+    .titleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid $borders;
+        gap: 5px;
+    }
+
+    .mainTitle {
+        color: $textPrimary1;
+        text-align: center;
+    }
+
+    .isotype {
+        color: $textPrimary1;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .linksContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+    
+        > * {
+            cursor: pointer;
+            width: 100%;
+            padding-left: 15px;
+        }
+    
+        @media (max-width: 770px) {
+            gap: 10px;
+        }
+    }
+
+    .activeLink{
+        box-shadow: 0 8px 16px $borders ;
+        background-color: $bgPrimary2;
+        border-radius: 5px;
+    }
+}
